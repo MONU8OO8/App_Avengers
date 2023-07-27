@@ -1,0 +1,73 @@
+@font-face {
+  font-family: "Aquire";
+  src: local("Aquire"),
+    url("/fonts/Aquire-BW0ox.otf");
+}
+
+@font-face {
+  font-family: "AquireBold";
+  src: local("AquireBold"),
+    url("/fonts/AquireBold-8Ma60.otf");
+}
+
+@font-face {
+  font-family: "AquireLight";
+  src: local("AquireLight"),
+    url("/fonts/AquireLight-YzE0o.otf");
+}
+
+@font-face {
+  font-family: "AncientGeek";
+  src: local("AncientGeek"),
+    url("/fonts/AncientGeek-rx1K.ttf");
+}
+
+
+:root {
+  --primaryfont: "Aquire";
+  --primaryfontBold: "AquireBold";
+  --primaryfontLight: "AquireLight";
+
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+button {
+  all: unset;
+  cursor: pointer;
+}
+
+input,
+textarea {
+  all: unset;
+}
+
+input[type=text],
+textarea {
+  cursor: text;
+}
+
+input::-webkit-inner-spin-button,
+input::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  appearance: none;
+  margin: 0;
+}
+
+
+input[type=number] {
+  -moz-appearance: textfield;
+  appearance: textfield;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
